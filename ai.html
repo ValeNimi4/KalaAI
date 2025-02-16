@@ -15,7 +15,7 @@
   <button onclick="vasta()">Saada</button>
   <script>
     function vasta() {
-      document.getElementById('tekst').innerHTML = document.getElementById('tekst').innerHTML + '<br>Sinu küsimus: ' + document.getElementById('sisestus').value + ' KalaAI vastus<br>';
+      document.getElementById('tekst').innerHTML = document.getElementById('tekst').innerHTML + '<br>Sinu küsimus: ' + document.getElementById('sisestus').value + '<br>KalaAI vastus:<br>';
       var a = Math.floor(Math.random() * 100);
       for (var i = 0; i < a; i++) {
          document.getElementById('tekst').innerHTML = document.getElementById('tekst').innerHTML + ' mull'
